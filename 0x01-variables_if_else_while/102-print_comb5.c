@@ -16,11 +16,11 @@ int main(void)
 	{
 		for (snum = fnum + 1; snum <= 99; snum++)
 		{
-			putchar(fnum/10 + '0');
-			putchar(fnum%10 + '0');
+			putchar(fnum / 10 + '0');
+			putchar(fnum % 10 + '0');
 			putchar(' ');
-			putchar(snum/10 + '0');
-			putchar(snum%10 + '0');
+			putchar(snum / 10 + '0');
+			putchar(snum % 10 + '0');
 			if (!(fnum == 98 && snum == 99))
 			{
 				putchar(',');
