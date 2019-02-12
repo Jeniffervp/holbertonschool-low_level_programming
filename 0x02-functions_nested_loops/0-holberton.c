@@ -1,6 +1,13 @@
 #include "holberton.h"
 
-int main(void);
+/**
+ * main - entry point
+ *
+ * Description: print Holberton
+ * Return: always 0
+ */
+
+int main(void)
 {
 	_putchar('H');
 	_putchar('o');
@@ -12,6 +19,5 @@ int main(void);
 	_putchar('o');
 	_putchar('n');
 	_putchar(10);
-
 	return (0);
 }
