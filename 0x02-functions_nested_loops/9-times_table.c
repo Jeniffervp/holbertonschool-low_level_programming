@@ -17,10 +17,10 @@ void times_table(void)
 		{
 			mul = x * y;
 
-			if (mul/10 != 0)
+			if (mul / 10 != 0)
 			{
-				_putchar(mul/10 + '0');
-				_putchar(mul%10 + '0');
+				_putchar(mul / 10 + '0');
+				_putchar(mul % 10 + '0');
 			}
 			else
 			{
@@ -28,7 +28,7 @@ void times_table(void)
 				{
 				_putchar(' ');
 				}
-				_putchar(mul%10 + '0');
+				_putchar(mul % 10 + '0');
 			}
 			if (y != 9)
 			{
