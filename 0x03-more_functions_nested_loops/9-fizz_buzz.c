@@ -1,3 +1,4 @@
+#include "holberton.h"
 #include <stdio.h>
 /**
  * main - entry point
@@ -23,7 +24,6 @@ int main(void)
 		else
 			printf("%d ", a);
 	}
-
 	printf("\n");
 
 	return (0);
