@@ -1,0 +1,1 @@
+For this project we learn about poniters, arrays and strings, and how to used it.
