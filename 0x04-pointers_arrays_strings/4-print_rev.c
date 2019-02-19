@@ -12,7 +12,7 @@ void print_rev(char *s)
 	int c;
 
 	while (s[c] != '\0')
-  	{
+	{
 		c++;
 	}
 	while (c >= '\0')
