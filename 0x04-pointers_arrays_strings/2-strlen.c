@@ -3,7 +3,7 @@
 /**
  *_strlen - entry point
  *@s: a pointer to a word
- * Description: adsdasd
+ * Description: print tthe length of a word
  * Return: always 0
  */
 
