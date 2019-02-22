@@ -9,18 +9,23 @@
 char *cap_string(char *a)
 {
 	int  b = 0;
+	char c[14] = " ,!;.?\"(){}\n\t";
+	int d;
 
 	while (a[b])
 	{
-		if (a[b] >= 9 && a[b] <= 64)
+		for (d = 0; c[d]; d++)
 		{
-			b = b + 1;
-			if (a[b] >= 97 && a[b] <= 122)
+			if(c[d] == a[b])
 			{
-			       a[b] = a[b] - 32;
-		       	}
-			else
-				b--;
+				b = b + 1;
+				if (a[b] >= 97 && a[b] <= 122)
+				{
+					a[b] = a[b] - 32;
+				}
+				else
+					b--;
+			}
 		}
 		b++;
 	}
