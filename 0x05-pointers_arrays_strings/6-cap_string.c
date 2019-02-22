@@ -19,22 +19,21 @@ char *cap_string(char *a)
 			if (c[d] == a[b])
 			{
 				b = b + 1;
-				if(a[b])
+				if (a[b] >= 97 && a[b] <= 122)
 				{
-					if (a[b] >= 97 && a[b] <= 122)
-					{
-						a[b] = a[b] - 32;
-						break;
-					}
-					else
-					{
-						b--;
-						break;
-					}
+					a[b] = a[b] - 32;
+				}
+				else
+				{
+					b--;
 				}
 			}
 		}
 		b++;
+	}
+	if (a[0] >= 97 && a[0] <= 122)
+	{
+		a[0] = a[0] - 32;
 	}
 	return (a);
 }
