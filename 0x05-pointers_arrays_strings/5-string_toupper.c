@@ -2,6 +2,7 @@
 
 /**
  *string_toupper - entry point
+ *@a: is a pointer
  * Return: always 0
  */
 
