@@ -17,8 +17,10 @@ char *cap_string(char *a)
 			b = b + 1;
 			if (a[b] >= 97 && a[b] <= 122)
 			{
-				a[b] = a[b] - 32;
-			}
+			       a[b] = a[b] - 32;
+		       	}
+			else
+				b--;
 		}
 		b++;
 	}
