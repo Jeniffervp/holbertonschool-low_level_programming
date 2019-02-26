@@ -18,8 +18,8 @@ char *_strpbrk(char *s, char *accept)
 			if (accept[second] == s[first])
 				return (s + first);
 		}
-	}
 	if (accept[second] == s[first])
 		return (s + first);
+	}
 	return (0);
 }
