@@ -19,7 +19,7 @@ int aux(int a, int n)
 	return (aux(a + 1, n));
 }
 /**
- * _srt_recursion - entri point
+ *is_prime_number - entri point
  *@n: is a number
  * Description: returns the natural square root of a number.
  * Return: something
