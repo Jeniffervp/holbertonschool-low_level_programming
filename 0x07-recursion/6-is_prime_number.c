@@ -1,10 +1,10 @@
 #include "holberton.h"
-#include <stdio.h>
+
 /**
   *aux - entri point
   *@n: is a number
-  *@num: the other number
-  * Description: returns the natural square root of a number.
+  *@a: is the number to compare
+  * Description: returns if is a prime number.
   * Return: something
  */
 
