@@ -28,5 +28,5 @@ int aux(int a, int n)
 int is_prime_number(int n)
 
 {
-	return(aux(2, n));
+	return (aux(2, n));
 }
