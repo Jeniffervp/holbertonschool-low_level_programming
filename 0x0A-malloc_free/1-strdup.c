@@ -10,17 +10,17 @@
 
 char *_strdup(char *str)
 {
-	char *x;
-	int y;
+	char *copy;
+	int lenght, comp;
 
 	if (*str == 0)
 		return (0);
 
-	for (y = 0; str[y]; y++)
-		x = malloc(y * sizeof(char) + 1);
-	for (y = 0; str[y]; y++)
-		x[y] = str[y];
-	return (x);
-	if (str > x)
+	for (lenght = 0; str[lenght]; lenght++)
+		copy = malloc(lenght * sizeof(char));
+	for (comp = 0; comp < lenght; comp++)
+		copy[comp] = str[comp];
+	return (copy);
+	if (copy == 0)
 		return (0);
 }
