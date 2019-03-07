@@ -2,8 +2,9 @@
 #include <stdlib.h>
 
 /**
- *argstostr - concatenate all the  strings to new memory space.
- * @ac: is a counter of arguments.
+ *malloc_checked -should cause normal process termination with a status value
+ of 98.
+ * @b: is a number.
  *
  * Return: Nothing.
  */
