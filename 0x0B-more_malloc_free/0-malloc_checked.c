@@ -2,8 +2,7 @@
 #include <stdlib.h>
 
 /**
- *malloc_checked -should cause normal process termination with a status value
- of 98.
+ *malloc_checked -should cause normal process termination with a status value.
  * @b: is a number.
  *
  * Return: Nothing.
