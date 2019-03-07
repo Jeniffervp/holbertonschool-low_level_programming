@@ -3,8 +3,8 @@
 
 /**
  *argstostr - concatenate all the  strings to new memory space.
- * @s1: a poniter to the first string.
- * @s2: a poniter to the second string.
+ * @ac: is a counter of arguments.
+ * @av: is the double pointer.
  *
  * Return: Nothing.
  */
@@ -20,7 +20,7 @@ char *argstostr(int ac, char **av)
 	}
 	for (i = 0; i < ac; i++)
 	{
-		for (j = 0; av[j]; j++)
+		for (j = 0; av[i][j]; j++)
 		{
 			k++;
 		}
