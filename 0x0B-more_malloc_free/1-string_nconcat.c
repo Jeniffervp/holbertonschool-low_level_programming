@@ -40,5 +40,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	else
 		for (c = 0; c < n; c++)
 			a[b + c] = s2[c];
+	a[b + c] = '\0';
 	return (a);
 }
