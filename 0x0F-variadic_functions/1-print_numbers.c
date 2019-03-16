@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- *print_numbers: function to sum all the parameters.
+ * print_numbers - function to sum all the parameters.
  *@separator: is the ",".
  *@n: contain the numbers
  *
