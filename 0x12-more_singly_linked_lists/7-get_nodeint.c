@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * sum_listint -  sum all data.
+ * get_nodeint_at_index -  return nth node.
  *@head: is the beginning of the list.
  *@index: index of the node.
  *
