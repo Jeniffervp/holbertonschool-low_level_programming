@@ -23,36 +23,31 @@ There are following Bitwise operators supported by C language:
 
 ### Truth table
 
-```sh
 | AND |
 | ------ |
 | 0 & 0 = 0 |
 | 0 & 1 = 0 |
 | 1 & 0 = 0 |
 | 1 & 1 = 1 |
-```
-```sh
+
 | OR |
 | ------ |
 | 0 \| 0 = 1 |
 | 0 \| 1 = 1 |
 | 1 \| 0 = 1 |
 | 1 \| 1 = 0 |
-```
-```sh
+
 | XOR |
 | ------ |
 | 0 ^ 0 = 0 |
 | 0 ^ 1 = 1 |
 | 1 ^ 0 = 1 |
 | 1 ^ 1 = 0 |
-```
-```sh
+
 | FLIPPING |
 | ------ |
 | ~ 0 = 1 |
 | ~ 1 = 0 |
-```
 
 ## Topics of repository
 
