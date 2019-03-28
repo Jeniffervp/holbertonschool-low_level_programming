@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * print_binary - converts a binary number to an unsigned int.
- *@index: position given.
+ * get_bit - converts a binary number to an unsigned int.
+ *@index: position given
  *@n: is a number.
  *
  * Return: the converted to binary.
