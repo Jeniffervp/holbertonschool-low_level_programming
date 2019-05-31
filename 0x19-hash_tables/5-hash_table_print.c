@@ -1,9 +1,9 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_get - retrieves a value associated with a key.
+ * hash_table_print - prints a hash table.
  * @ht: hash table.
- * Return: value associated with the element,or NULL if key not found
+ * Return: nothing.
  */
 
 void hash_table_print(const hash_table_t *ht)
