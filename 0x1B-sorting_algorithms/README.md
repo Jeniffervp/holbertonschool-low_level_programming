@@ -69,5 +69,13 @@ It’s like the difference between x^2 to x^200 - they are both polynomial funct
 
 In complexity theory - those differences are not much important or meaningful; x^2 and x^200 are both poly(x) functions - they both in the polynomial functions class - like every function in the form of x^k while k is a constant number; And n! and 2^n are both exp(n) - they are both in the exponential functions class - but not poly(n). [every poly(x) is also exp(x) because exp(x) is O(exp(x)) (and poly(x) is O(poly(x))]
 
+# Tasks
+
+ | Task | Description |
+ | ---- | ----------- |
+ | 0. Bubble sort | Write a function that sorts an array of integers in ascending order using the Bubble sort algorithm |
+ | 1. Insertion sort | Write a function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm |
+ | 2. Selection sort | Write a function that sorts an array of integers in ascending order using the Selection sort algorithm |
+ | 3. Quick sort | Write a function that sorts an array of integers in ascending order using the Quick sort algorithm |
 
 ---
