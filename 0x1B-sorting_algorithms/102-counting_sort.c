@@ -1,8 +1,7 @@
 #include "sort.h"
 /**
- * maximum - function that search for the maximum integer
- *
- * @array: List of integers to be sorted
+ * maximum - search for the maximum integer
+ * @array: List of integers
  * @size: lenght of the array
  * Return: Nothing
  */
@@ -24,10 +23,8 @@ size_t maximum(int *array, int size)
 }
 
 /**
- * counting_sort - function that sorts an array of integers
- * in ascending order using the Counting sort algorithm
- *
- * @array: List of integers to be sorted
+ * counting_sort - sorts an array ascending order, Counting sort algorithm
+ * @array: List of integers
  * @size: lenght of the array
  * Return: Nothing
  */
