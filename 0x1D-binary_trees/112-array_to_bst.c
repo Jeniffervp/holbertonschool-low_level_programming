@@ -10,12 +10,11 @@
  */
 bst_t *array_to_bst(int *array, size_t size)
 {
-	bst_t *root;
+	bst_t *root = NULL;
 	size_t i = 0;
 
 	if (!size)
 		return (root);
-	root = NULL;
 	while (i < size)
 	{
 		(bst_insert(&root, array[i]));
