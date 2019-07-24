@@ -48,8 +48,12 @@ int complete_tree(const binary_tree_t *tree, unsigned int index,
 
 int binary_tree_is_complete(const binary_tree_t *tree)
 {
-	unsigned int counter = tree_size(tree);
-	unsigned int index = 0;
+	unsigned int counter;
+	unsigned int index;
 
+	if (tree == NULL)
+		return (0);
+	counter = tree_size(tree);
+	index = 0;
 	return (complete_tree(tree, index, counter));
 }
