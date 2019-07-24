@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_delete - funtion to check if a node is a leaf.
+ * binary_tree_is_leaf - funtion to check if a node is a leaf.
  *
  * @node: pointer to the node to check.
  * Return: 0 if the node doesn't exists or no null and 1 if the nodes are null
